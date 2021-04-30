@@ -1,0 +1,1183 @@
+::-webkit-scrollbar
+{
+    display: none;
+}
+.tytext{
+    margin-left: 15px;
+}
+#tyend
+{
+    position: absolute;
+    top:5vh;
+    margin-left: 2.5%;
+    left:0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    font-size: 20px;
+    padding:5px 15px 5px 15px;
+    transition: all 300ms ease-in-out;
+}
+#tyend:hover{
+    background-color: rgba(255, 255, 255, 0.549);
+}
+.tyhead{
+    font-size: 60px;
+    color: white;
+}
+.tyshead{
+ font-size: 40px;
+color: white;
+}
+.conformg label{
+    margin-bottom: 5px;
+}
+#formsub{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:black solid 1px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:white;
+    font-size: 18px;
+    border-radius: 10%;
+}
+.conformg{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+.conformg input{
+    color:white;
+    border:black solid 1px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    border-radius: 6%;
+}
+.conformg textarea{
+    color:white;
+    border:black solid 1px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    border-radius: 3%;
+    resize: none;
+    width: 100%;
+}
+.conform{
+    color:white;
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    height:fit-content;
+top:150px;
+    background:linear-gradient(210deg,rgba(0, 0, 0, 0.7),rgba(24, 27, 44, 0.8));
+   border-radius: 7%;
+
+    
+}
+.hide2{
+    background-image: url(img/rungirl.jpg);
+    width:100%;
+    min-height: 800px;
+    height: fit-content;
+      background-size: cover;
+      
+     
+    
+
+}
+.conname:hover{
+    transform: rotate(1deg);
+}
+.connamehead{
+    font-size: 45px;
+    margin-top: 5vh;
+    margin-bottom: -5vh;
+}
+.conend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.conendbut{
+    font-size: 40px;
+    padding: 30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 500ms ease-in-out;
+}
+.conendbut:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.conname
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+ text-align: left;
+ background-color: rgb(255, 242, 211);
+ border: none;
+ margin-right: 5%;
+ transition:all 400ms ease-in-out ;
+}
+.consultants  button{
+    margin-top: 10vh;
+}
+.concithead{
+    font-size: 45px;
+    margin-top: 5vh;
+    background-color: rgb(255, 242, 211);
+}
+.confixim{
+    border-top: solid black 6px;
+    border-bottom: solid black 6px;
+    height:80vh;
+    background-image: url(img/wlcon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.conhead{
+    display: flex;
+    justify-content: center;
+    margin-top: 13vh;
+    font-size: 60px;
+    background-color: rgb(255, 242, 211);
+    margin-bottom: 5vh;
+}
+.concitext1
+{
+    padding-bottom: 3px;
+    border-bottom: solid 1px transparent;
+    transition: all 500ms ease-in-out;
+
+}
+.india:hover .concitext1{
+    border-bottom:solid black 1px;
+}
+
+.consultants{
+    margin-left: 5%;
+    margin-bottom: 15vh;
+    margin-top: 5vh;
+}
+.concit{
+    transform: skewY(-1deg);
+    padding-bottom: 30px;
+    background-color: rgb(250, 218, 142);;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 80px;
+    align-items:center;
+    flex-wrap: wrap;
+
+}
+.india
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: white;
+    margin-top:20px;
+    width:150px;
+    height:150px;
+    margin-left:50px;
+    border:none;
+    box-shadow: 0px 0px 5px 1px rgba(118, 118, 118, 0.75);
+    border-radius: 10%;
+    transition:all 100ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.india:hover{
+    box-shadow: 0px 0px 10px 1px rgba(118, 118, 118, 0.75);
+}
+.e1im{
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+    background-image: url(img/Trekking.jpg);
+    height:200px;
+    width:90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+.e3im{
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+    background-image: url(img/bIAqiW_marathon-de-montpellier.jpg);
+    height:200px;
+    width:90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+#e1{
+    transition: all .5s ease-in-out;
+}
+#e1:hover{
+    background-color:rgba(255, 255, 255, 0.213) ;
+}
+#e2{
+    transition: all .5s ease-in-out;
+}
+#e2:hover{
+    background-color:rgba(255, 255, 255, 0.213) ;
+}
+#e3{
+    transition: all .5s ease-in-out;
+}
+#e3:hover{
+    background-color:rgba(255, 255, 255, 0.213) ;
+}
+#e4{
+    transition: all .5s ease-in-out;
+}
+#e4:hover{
+    background-color:rgba(255, 255, 255, 0.213) ;
+}
+#e5{
+    transition: all .5s ease-in-out;
+}
+#e5:hover{
+    background-color:rgba(255, 255, 255, 0.213) ;
+}
+.e2im{
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+    background-image: url(img/Man-butterfly-stroke-pool.jpg);
+    height:200px;
+    width:90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+.e4im{
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+    background-image: url(img/cyclingim.jfif);
+    height:200px;
+    width:90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+.e5im{
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+    background-image: url(img/bandh.jpg);
+    height:200px;
+    width:90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+.eventopt
+{
+    
+    top:100px;
+
+position:  relative;
+display: flex;
+
+justify-content: center;
+animation: eventscroll 9000ms linear infinite;
+align-items: center;
+margin-top: -150px;
+}
+@keyframes eventscroll{
+    0%{
+       transform: translateX(-50vw) ;
+    }
+    100%{
+        transform: translateX(50vw) ;
+     }
+}
+
+.eventopt a{
+    width:20%;
+    flex-shrink: 0;
+z-index: 98;
+   display: flex;
+   flex-direction: column;
+justify-content: center;
+align-items: center;
+white-space: normal;
+height:50vh;
+text-decoration: none;
+color: black;
+
+}
+
+.eventshead{
+    font-size: 60px;
+
+}
+.events
+{
+    top:200px;
+   position: relative;
+    height:500px;
+    width:100%;
+
+background:linear-gradient(70deg,lightblue,rgb(190, 115, 252)) ;
+
+margin-top: 10px;
+margin-bottom: 280px;
+
+}
+#togn
+{
+ display: none;
+}
+.blogwrap
+{
+    margin-top: 100px;
+}
+.flexmaintext 
+{
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(250, 218, 142);
+    height:fit-content;
+    align-items: center;
+    margin-top: -65px;
+}
+.blogfaq
+{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-bottom:50px ;
+   
+}
+.blogflex
+{
+   
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+.bloghead
+{
+    font-size: 40px;
+    margin-bottom: 25px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.heart{
+    height:50px;
+    width: 50px;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+   
+}
+.boxheart
+{
+    height: 30px;
+    width:30px;
+  
+    background-color: rgb(255, 176, 176);
+    transform: rotate(45deg);
+    position: relative;
+    top:10px;
+    left:0px;
+    transition: all .5s ease-in-out;
+}
+.circleheart1
+{
+    height: 30px;
+    width:30px;
+    background-color: rgb(255, 176, 176);
+    bottom:30px;
+    position: relative;
+  right:10px;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+.circleheart2
+{
+    height: 30px;
+    width:30px;
+    background-color: rgb(255, 176, 176);
+    bottom:40px;
+    position: relative;
+  left:10px;
+  bottom:60px;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+.heart:hover div
+{
+    transform: rotate(45deg) scale(1.16);
+}
+.blog1
+{
+    background-color: rgb(139, 208, 104);
+    height:475px;
+    width:200px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+   
+
+}
+
+.blog2
+{
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(139, 233, 205);
+    height:475px;
+    width:200px;
+    border-radius: 10px;
+  
+   
+
+}
+
+
+#faqtext
+{
+    position:relative; bottom:145px;left:10%; font-size: 40px;
+}
+#circlefaq{
+    background-color: rgb(250, 218, 142);;
+    height:175px;
+    width:175px;
+   display: grid;
+   place-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.75);
+   margin-left: 66px;
+}
+.parfaq
+{
+    border: solid black 10px;
+    width: 500px;
+    height: 100px;
+    transform: skewX(20deg);
+    margin-left: -10px;
+    margin-top: -260px;
+    position: relative;
+    z-index: -10;
+}
+.flexmaintext2
+{
+    background-image: url(img/cool-outdoor-sports-you-must-try-in-2019-1550575855.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  margin-top: 15px;
+    height:265px;
+    width:481px;
+    margin-right: 25px;
+    margin-left: 5%;
+    margin-bottom: 25px;
+
+
+}
+.flexmaintext1
+{
+    margin-top: 15px;
+    margin-left: 5%;
+
+}
+.button
+{
+    
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width:30px;
+    height:24px;
+   
+   top:17px;
+   left:10px;
+   z-index: 101;
+    
+}
+@media (max-width:522px)
+{
+
+
+}
+@media(max-width:1352px)
+{
+    .blogwrap{
+        margin-top: 50px;
+    }
+}
+.bar{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+.bart{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+}
+.barre{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+.calcb
+{
+    margin-left:15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.imcb
+{
+    background-image: url(img/bmi-chart-imperial.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+   height: 711px;
+    width:697px;
+    margin-right: 45px;
+    
+}
+
+.tb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+.infb
+{
+    margin-bottom: 80px;
+     width:50%;
+     margin-right: 20px;
+     
+}
+.maintextnut1
+{
+    color: black;
+    position: absolute;top:20%;left: 35%;font-size: 50px;
+    border-bottom: transparent solid 3px;
+    transition: border-bottom .5s;
+}
+.maintextnut2
+{
+    color: black;
+    position: absolute;top:67%;left: 31%;font-size: 50px;
+    border-bottom: transparent solid 3px;
+    transition: border-bottom .5s;
+}
+.maintextnut3
+{
+    color: black;
+    position:absolute;
+    top:109%;
+    left: 27%;font-size: 50px;
+    border-bottom: transparent solid 3px;
+    transition: border-bottom .5s;
+}
+.maintextnut1:hover{
+    border-bottom: black solid 3px;
+}
+.maintextnut3:hover{
+    border-bottom: black solid 3px;
+}
+.maintextnut2:hover{
+    border-bottom: black solid 3px;
+}
+.nutimm
+{
+    background-image: url(img/nut.jpg);
+    width:100%;
+    background-size: contain;
+    padding-top:57%;
+    margin-top: 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+@media(max-width:1174px)
+{
+    .infb
+    {
+        width:100%;
+
+    }
+    .nutimm{
+        background-image: url(img/nutchange.jpg) ;
+    }
+    .nutmaintext
+    {
+        display: none;
+    }
+}
+@media(max-width:900px)
+{
+    .imcb
+    {
+        height:400px;
+    }
+}
+.imb
+{
+    background-image: url("img/180404_coach_bmi.jpg");
+    background-size: contain;
+    height:278px;
+    width:500px;;
+    margin-top:-50px;
+    margin-right: 45px;
+    background-repeat: no-repeat;
+   
+    
+    
+}
+.flb
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.headinb
+{
+    font-size:60px;
+}
+.textb
+{
+    margin-left:45px;
+}
+body
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 242, 211);
+    
+    
+}
+
+
+.nav
+{
+    
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(255, 242, 211);
+    border-bottom: black solid 2px;
+    box-shadow:0px -7px 5px 10px black;
+    z-index: 100;
+
+  
+}
+
+.left
+{
+   margin-left:50px ;
+}
+
+
+
+.left
+{
+    display:flex;
+}
+
+
+
+.links
+{
+    font-family: 'Antonio', sans-serif;
+    margin-right: 15px;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 50;
+    
+    
+}
+
+.links
+{
+    height : 33px;
+    border-bottom:  solid transparent 1px;
+    transition: border-bottom .5s;
+
+}
+
+.links a
+{
+    color:black; 
+    text-decoration: none;
+}
+
+.links:hover
+{
+  border-bottom: black solid 1px;
+  
+}
+
+.ac
+{
+    border-bottom: black solid 1px;
+}
+
+.catchy
+{
+    font-size: 25px;
+    
+    display:flex;
+}
+
+.name
+{
+    padding:2px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 37px;
+   
+}
+
+.logo
+{
+    width : 40px;
+    margin-right:31px;
+    margin-left: 8px;
+    
+}
+
+.main
+{
+    background-image: url(img/the\ main2.jpg);
+    width:100%;
+    background-size: contain;
+    padding-top:56.3%;
+    margin-top: 52px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gofittag
+{
+    display: flex;
+    
+}
+
+.tag1
+{
+    margin-left:90px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 60px;
+    
+}
+
+.tag2
+{
+    margin-left:227px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 60px;
+    
+}
+
+.tag3
+{
+    margin-left:264px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 60px;
+    
+}
+
+.tag4
+{
+    margin-left:280px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 60px;
+    
+}
+
+.tag5
+{
+    margin-left:260px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 60px;
+    
+}
+
+
+.ex
+{
+    background-image: url(img/viktor-bystrov-Gi0OMNguFaw-unsplash\ \(1\).jpg);
+    width: 100%;
+    padding-top: 56.25%;
+  background-size: cover;
+    margin-top: 52px;
+    box-shadow:0px -7px 5px 13px black;
+    border-bottom: black solid 2px;
+    
+    
+}
+.exheadm
+{
+    left:5%;
+    color:white;
+    font-size: 35px;
+    position:absolute;
+    top:70px;  
+}
+.ext
+{
+    left:5%;
+    color:white;
+    font-size: 50px;
+    position:absolute;
+    top:120px;  
+    animation: exercise_slide 2600ms cubic-bezier(0.1, 0.43, 0.58, 1.16) 100ms;
+    
+    animation-fill-mode: both;
+}
+
+@keyframes exercise_slide
+{
+   0%{
+       transform: translateX(-150%);
+   }
+   100%{
+       transform: translateX(0);
+   }
+}
+
+.hheading
+{
+    
+    font-size: 80px;
+}
+
+.ht
+{
+    
+    margin-left: 50px;
+    font-size: 20px;
+    margin-right:20px;
+}
+
+.foter
+{
+    
+    background-color: rgb(48, 48, 48);
+    height: fit-content;
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ft 
+{
+    color: white;
+ 
+    margin-left: 50px;
+    
+
+}
+.nut1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    background-color: rgb(252, 216, 162);
+    padding-left: 3.5%;
+    margin-top: -40px;
+    padding-bottom: 60px;
+   
+
+}
+
+.nutimg1
+{
+    background-image: url(img/fruit_veg_FACE__1_-removebg-preview.png);
+    width:495px;
+    height:504px;
+   margin-top:15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.textnut
+{
+    
+}
+.cycling{
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cyclingtext{
+    font-size: 25px;
+    margin-left: 2%;
+    margin-right:2%;
+
+}
+.swimmingimage{
+    background-image: url(img/todd-quackenbush-E9PJO_vL3E8-unsplash\ \(1\).jpg);
+    height:302px;
+    width:577px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.cyclingimage{
+    background-image: url(img/photo-1541625810516-44f1ce894bcd.jfif);
+    height:333px;
+    width:500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.hikingimage{
+    background-image: url(img/hiking.jfif);
+    height:355px;
+    width:499px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.exmaintext{
+    font-size: 36px;
+    margin-top: 45px;
+    text-align: center;
+
+margin-bottom: 90px;
+}
+
+.henut
+{
+    font-size: 25px;
+}
+.nutimg2
+{
+    background-image: url(img/Lose_Weight_and_Keep_It_Off-removebg-preview.png);
+    height:340px;
+    width:340px;
+    margin-top: 20px;
+    margin-right: 3%;
+    
+    margin-top:30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform:rotate(270deg);
+}
+.nut3 {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    background-color: rgb(255, 180, 66);
+    padding-left: 3.5%;
+    padding-bottom: 2%;
+    padding-top: 250px;
+    margin-top: -200px;
+}
+.nut2{
+    padding-left: 3.5%;
+    z-index: -1;
+  
+    padding-top: 200px;
+    margin-top: -170px;
+    background-color: rgb(255, 200, 117);
+    padding-bottom: 150px;
+    clip-path: polygon(0 calc(0% + 10vw),100% 0,100% calc(100% - 10vw), 0 100%);
+
+}
+.nutflex2
+{
+margin-top: -1%;
+}
+.map
+{
+    margin-right: 20px;
+    margin-left:50px;
+    margin-bottom: 20px;
+    margin-top: 10px;;
+   
+}
+
+
+@media(max-width: 830px)
+{
+    .conform{
+background-color: rgba(0, 0, 0, 0.0);
+
+    }
+    .eventwrap{
+        display: none;
+    }
+    .exmaintext{
+        font-size: 25px;
+    }
+    .ext{
+        font-size:20px;
+top:100px;
+    }
+    .exheadm
+    {
+        font-size:15px;
+    }
+.flexmaintext2
+{
+    height:238px;
+    width:414px;
+}
+    .nutimg1{
+        height:350px;
+        width:350px;
+    }
+    .button{
+        display:flex;
+    }
+    .nav{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        
+    }
+    .links
+    {
+       margin-left: 40%;
+       margin-right: 40%;
+       margin-bottom: 10px;
+    }
+ .right
+ {
+z-index: 5;
+margin-top: 3px;
+margin-bottom: 10px;
+ }
+ .logo{
+     width:40px;
+height:40px;
+ }
+ .name
+ {
+     font-size: 25px;
+     padding-top: 5px;
+ }
+
+    .links
+    {
+        font-size: 13px;
+    }
+    .map
+    {
+        display: none;
+    }
+    .hheading
+    {
+        font-size: 50px ;
+    }
+    .logo
+    {
+        margin-right: 10px;
+    }
+    .left
+    {
+     padding-top: 50px;
+        position: fixed;
+        top:-390px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(255, 242, 211);
+        padding-bottom: 55px;
+    
+        box-shadow:0px -7px 5px 10px black;
+        border-bottom: black solid 2px;
+        transition: top .5s ease-in-out;
+       
+
+    }
+    
+  
+
+    #circlefaq
+    {
+        display:none;
+    }
+    .parfaq{
+        display: none;
+    }
+    #faqtext
+    {
+        bottom: 0;
+        left:0;
+    }
+    .ht{
+        margin-left: 20px;
+    }
+    #togn:checked ~ * .left 
+    {
+        box-shadow:0px -7px 5px 10px black;
+        border-bottom: black solid 2px;
+        top:0px;
+ 
+
+    }
+    .bar{
+        transform: rotate(0deg);
+        margin-top: 0px;
+        transition: all .5s ease-in-out;
+    }
+    .bart{
+        transform: rotate(0deg);
+        margin-top:0px;
+        transition: all .5s ease-in-out;
+    }
+    .barre{
+        transition: all .5s ease-in-out;
+    }
+  #togn:checked ~ * .barre
+{
+    background-color: rgb(255, 242, 211);;
+}
+#togn:checked ~ * .bart{
+    
+    transform: rotate(45deg);
+    width:150%;
+    margin-top: 23px;
+    
+}
+#togn:checked ~ * .bar{
+
+    transform: rotate(-45deg);
+    width:150%;
+   
+    
+    
+}
+
+}
+

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="icon" href="img/logo lighting.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>
+        GOFIT-CONSULT
+    </title>
+</head>
+
+<body>
+    <div class="container" style="overflow-x: hidden">
+
+        <input type="checkbox" id="togn" style="position: absolute;top:0;z-index: 20;">
+        <label for="togn" class="button">
+            <span class="bart"></span>
+            <span class="barre"></span>
+            <span class="bar"></span>
+        </label>
+        <div class="nav">
+
+            <div class="left">
+
+                <div class="links">
+                    <a href="index.html">HOME</a>
+                </div>
+                <div class="links">
+                    <a href="exercise.html">EXERCISE</a>
+                </div>
+                <div class="links">
+                    <a href="nutrition.html">NUTRITION</a>
+                </div>
+                <div class="links">
+                    <a href="bmi.html">BMI CALCULATOR</a>
+                </div>
+                <div class="links ac">
+                    <a href="consult.html">CONSULT</a>
+                </div>
+                <div class="links">
+                    <a href=#foter>ABOUT US</a>
+                </div>
+
+            </div>
+            <div class="right">
+                <div class="catchy">
+
+                    <div class="name"><b>G.O.F.I.T</b></div>
+                    <img class="logo" src="img/logo lighting.png">
+                </div>
+            </div>
+        </div>
+        <div class="hide1" id="hide1">
+            <div class="conhead" data-aos="zoom-in" data-aos-duration="1000">
+                FITNESS CONSULTANTS
+            </div>
+            <div class="confixim">
+
+            </div>
+            <div class="concithead" data-aos="zoom-out" data-aos-duration="1000">
+                <center>
+                    SELECT YOUR REGION
+                </center>
+
+            </div>
+            <div class="concit">
+
+                <div class="india1">
+                    <button type="button" class="india" id="india" onclick="india();"> <img style="margin-top: 10px;"
+                            src="img/icons/india.png" width=80px height=80px>
+                        <h3 class="concitext1" id="jcon1">INDIA</h3>
+                    </button>
+                </div>
+                <div class="gurugram">
+                    <button type="button" class="india" id="gurugram" onclick="gurugram();"><img
+                            style="margin-top: 10px;" src="img/icons/gurugram.png" width=80px height=80px>
+                        <h3 class="concitext1" id="jcon2">GURUGRAM</h3>
+                    </button>
+                </div>
+                <div class="chennai">
+                    <button type="button" class="india" id="chennai" onclick="chennai();"><img style="margin-top: 10px;"
+                            src="img/icons/chennai.png" width=80px height=80px>
+                        <h3 class="concitext1" id="jcon3">CHENNAI</h3>
+                    </button>
+                </div>
+                <div class="goa">
+                    <button type="button" class="india" id="goa" onclick="goa();"><img style="margin-top: 10px;"
+                            src="img/icons/goa.png" width=80px height=80px>
+                        <h3 class="concitext1" id="jcon4">GOA</h3>
+                    </button>
+                </div>
+                <div class="delhi">
+                    <button type="button" class="india" id="delhi" onclick="delhi();"><img style="margin-top: 10px;"
+                            src="img/icons/delhi.png" width=80px height=80px>
+                        <h3 class="concitext1" id="jcon5">DELHI</h3>
+                    </button>
+                </div>
+            </div>
+            <div class="connamehead">
+                <CENTER>
+                    SELECT YOUR CONSULTANT
+                </CENTER>
+            </div>
+            <div class="consultants">
+
+                <button class="conname" id="constt1" onclick="ar();">
+
+                    <h1>Apurva Reddy</h1>
+                    <h2>Apurva Reddy is one of the best consultants fitness in Gurugram.he is an MD Pathologist from one
+                        of the premier<br>
+                        institute of India, UCMS and GTB Hospital New Delhi. he has completed her MBBS from Hardinge
+                        Medical<br>
+                        College, New Delhi. he Specializes in yoga treatment<br>
+                    </h2>
+
+
+                </button>
+                <button class="conname" id="constt2" onclick="as();">
+                    <h1>Aarav Saini</h1>
+                    <h2>Aarav Saini is one of the best consultants fitness in Delhi.he is an MD Pathologist from one of
+                        the
+                        premier<br>
+                        institute of India, UCMS and GTB Hospital New Delhi. he has completed her MBBS from Hardinge
+                        Medical<br>
+                        College, New Delhi. he Specializes in yoga treatment<br>
+                    </h2>
+
+                </button>
+                <button class="conname" id="constt3" onclick="hg();">
+                    <h1>Harish Gole</h1>
+                    <h2>Harish Gole is one of the best consultants fitness in Chennai.he is an MD Pathologist from one
+                        of
+                        the premier<br>
+                        institute of India, UCMS and GTB Hospital New Delhi. he has completed her MBBS from Hardinge
+                        Medical<br>
+                        College, New Delhi. he Specializes in yoga treatment<br>
+                    </h2>
+
+                </button>
+                <button class="conname" id="constt4" onclick="sr();">
+                    <h1>Sathwik Ravel</h1>
+                    <h2>Sathwik Ravel is one of the best consultants fitness in Goa.he is an MD Pathologist from one of
+                        the
+                        premier<br>
+                        institute of India, UCMS and GTB Hospital New Delhi. he has completed her MBBS from Hardinge
+                        Medical<br>
+                        College, New Delhi. he Specializes in yoga treatment<br>
+                    </h2>
+                </button>
+            </div>
+            <div class="conend">
+                <button type="button" class="conendbut" id="conendbut" onclick="gform();">
+                    CONSULT
+                </button>
+            </div>
+        </div>
+        <div class="hide2" id="hide2">
+            <center>
+                <div class="conform">
+                    <form action="https://formspree.io/f/xeqveaqn" method="POST" id="my-form">
+                        <input style="display:none" type="text" id="consultantn" name="consultant" >
+                        <div class="conformg">
+                            <label for="formname">NAME:</label>
+                            <input type="text" id="formname" name="name" required>
+                        </div>
+                        <div class="conformg">
+                            <label for="formno">CONTACT:</label>
+                            <input type="text"  id="formno" name="contact" required>
+                        </div>
+                        <div class="conformg">
+                            <label for="formbmi">BMI : <a style="border-bottom:white solid 1px;text-decoration: none; color: white;" href="bmi.html" target="_blank">BMI calculator</a></label>
+                            <input type="number" min="0" step="any" id="formbmi" name="bmi" required>
+                        </div>
+                        <div class="conformg">
+                            <label for="formarea">YOUR DIET AND EXERCISE ROUTINE:</label>
+                            <textarea id="formarea" name="diet and routine" cols="30" rows="15" required></textarea>
+                        </div>
+                        
+                        <button type="submit" id="formsub" value="">SUBMIT</button>
+
+                    </form>
+                </div>
+            </center>
+        </div>
+        <div class="foter" id="foter">
+            <div class="ft">
+                <br>We are a revolutionary fitness studio and we <br>encourage outdoor activities amongst all age
+                groups.
+                <br><br>Stay connected with us for latest updates.
+                <br><br>
+
+                Address - Maple Heights, C - Block Sushant Lok<br>Phase - 1, Gurugram, India
+                <br><br>
+                Phone - 9818204675
+                <br><br>
+                Created By Ojas Jain
+                <br><br>
+
+                &copy; GOFIT, 2021
+                <br><br>
+                If any Queries, mail to
+                <a id="mailto" style="text-decoration: none;
+                color:lightblue;" href="mailto:ojasj2873@gmail.com">ojasj2873@gmail.com</a>
+                <br><br>
+
+            </div>
+            <div class="map">
+                <br>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1753.9634285481816!2d77.0792529580316!3d28.451621195622366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18c03a787849%3A0xf35da6cf26aa0bdd!2sMaple%20Heights%20C-Block%2C%20Block%20C%2C%20Sushant%20Lok%20Phase%20I%2C%20Sector%2043%2C%20Gurugram%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1618670463091!5m2!1sen!2sin"
+                    width="750" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="main.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="main.js"></script>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/logo lighting.png">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+        GOFIT-BMI_CALCULATOR
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="checkbox" id="togn" style="position: absolute;top:0;z-index: 20;">
+            <label for="togn" class="button">
+                <span class="bart"></span>
+            <span class="barre"></span>
+            <span class="bar"></span>
+            </label>
+            <div class="nav">
+
+                <div class="left">
+
+                    <div class="links">
+                        <a href="index.html">HOME</a>
+                    </div>
+                    <div class="links">
+                        <a href="exercise.html">EXERCISE</a>
+                    </div>
+                    <div class="links">
+                        <a href="nutrition.html">NUTRITION</a>
+                    </div>
+                    <div class="links ac">
+                        <a href="bmi.html">BMI CALCULATOR</a>
+                    </div>
+                    <div class="links">
+                        <a href="consult.html">CONSULT</a>
+                    </div>
+                    <div class="links">
+                        <a href="#foter">ABOUT US</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="catchy">
+
+                        <div class="name"><b>G.O.F.I.T</b></div>
+                        <img class="logo" src="img/logo lighting.png">
+
+                    </div>
+                </div>
+            </div>
+        <div class="textb">
+            <br><br><br><br>
+            <div class="headinb">
+                BODY MASS INDEX
+            </div>
+            <br>
+            <div class="flb">
+                <div class="infb">
+                    <h3>Body Mass Index or BMI is a person’s weight in kilograms divided by the square of height in
+                        meters.BMI tells us wether a person is healthy obese or underweight. BMI can be used to
+                        screen
+                        for weight categories that may lead to health problems but it is not diagnostic of the body
+                        fatness or health of an individual.
+                        <br><br>
+                        The BMI is a convenient rule of thumb used to broadly categorize a person as underweight, normal
+                        weight, overweight, or obese based on weight and height. Commonly accepted BMI ranges are
+                        underweight (under 18.5 kg/m2),normal weight (18.5 to 25), overweight (25 to 30), and obese
+                        (over 30).
+                    </h3>
+                </div>
+                <div class="imb">
+
+                </div>
+            </div>
+            <br><br><br>
+            <div class="calcb">
+
+                <div class="funcpar">
+                    <h1>BMI CALCULATOR</h1><br>
+                    <h2>
+                        <label for="weight">Enter Weight</label><br>
+                        <input
+                            style="font-family: 'Ubuntu Condensed', sans-serif;padding:4px;font-size: 16px;width:200px;border-color: cornflowerblue;"
+                            class="tb" type="number" id="weight" placeholder="Enter Weight in kilograms"><br>
+
+                        <label for="height">Enter Height</label><br>
+                        <input
+                            style="font-family: 'Ubuntu Condensed', sans-serif;padding:4px;font-size: 16px;width:200px;border-color: cornflowerblue;"
+                            class="tb" type="number" id="height" placeholder="Enter height in cemtimeters"><br>
+
+                        <button
+                            style="font-family: 'Ubuntu Condensed', sans-serif;font-size: 17px;background-color: cornflowerblue;outline: none;"
+                            type="button" onclick="CALCULATE();">CALCULATE</button>
+
+
+                        <p id="ansb" style="height: 60px;font-size: 18px;margin-top: 20px;"></p>
+
+
+                    </h2>
+                </div>
+                <div class="imcb">
+
+                </div>
+            </div>
+            <br>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="foter" id="foter">
+            <div class="ft">
+                <br>We are a revolutionary fitness studio and we <br>encourage outdoor activities amongst all age
+                groups.
+                <br><br>Stay connected with us for latest updates.
+                <br><br>
+
+                Address - Maple Heights, C - Block Sushant Lok<br>Phase - 1, Gurugram, India
+                <br><br>
+                Phone - 9818204675
+                <br><br>
+                Created By Ojas Jain
+                <br><br>
+
+                &copy; GOFIT, 2021
+                <br><br>
+                If any Queries, mail to
+                <a id="mailto" style="text-decoration: none;
+                    color:lightblue;" href="mailto:ojasj2873@gmail.com">ojasj2873@gmail.com</a>
+                    <br><br>
+
+            </div>
+            <div class="map">
+                <br>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1753.9634285481816!2d77.0792529580316!3d28.451621195622366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18c03a787849%3A0xf35da6cf26aa0bdd!2sMaple%20Heights%20C-Block%2C%20Block%20C%2C%20Sushant%20Lok%20Phase%20I%2C%20Sector%2043%2C%20Gurugram%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1618670463091!5m2!1sen!2sin"
+                    width="750" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
